@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #000000;
+    color: white;
+}
+.Container{
+    background-color: #3B1C32;
+    padding: 50px;
+    border-radius: 20px;
+    height: 500px;
+    width: 400px;
+}
+form{
+    margin: 50px 0;
+}
+form input,select,button{
+    width: 100%;
+    padding: 8px 0;
+    margin: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.selecte p{
+    margin-top: 30px;
+}
+.selecte2 p{
+    margin-top: 30px;
+}
+
+form input{
+    border: 1px solid lightgrey;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.msg{
+    text-align: center;
+    margin: 10px 0;
+}
